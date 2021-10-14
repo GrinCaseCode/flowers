@@ -24,6 +24,10 @@
 .footer {
 	margin-top: 100px;
 }
+.row_card .btn-main {
+    min-width: 100%;
+    font-size: 16px;
+}
 } 
 
 /* Medium Devices, Desktops */
@@ -78,6 +82,19 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.row_card .btn-main {
+    font-size: 18px;
+}
+.slider-nav {
+    margin-bottom: 25px;
+}
+.title-review,
+.card__bottom {
+    padding-top: 30px;
+}
+.card {
+    padding-bottom: 70px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -125,6 +142,48 @@
 .footer__nav {
 	margin-top: 20px;
 }
+.slider-for__item {
+    height: 450px;
+}
+.slider-nav {
+    padding-right: 0;
+}
+.slider-nav__item {
+    width: 111px;
+    height: 111px;
+    }
+    .price-main {
+    font-size: 27px;
+    line-height: 37px;
+}
+.line-price {
+    margin-top: 0px;
+}
+.row_card {
+    margin-top: 20px;
+}
+.row_card .btn-main {
+    min-width: initial;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 340px;
+    max-width: 100%;
+}
+.section-suggest + .footer {
+    margin-top: 80px;
+}
+.card-shop .head-store {
+    display: block;
+}
+.card-shop .head-store > img {
+    margin-bottom: 15px;
+}
+.card-shop .head-store__content {
+    margin-bottom: 25px;
+}
+.item-sorting {
+    margin-right: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -137,9 +196,11 @@ body {
     font-size: 14px;
     line-height: 23px;
     }
+    .row_products,
     .row_catalog {
     	margin: 0 -7px;
     }
+    .row_products > div,
     .row_catalog > div {
     	padding: 0 7px;
     	margin-top: 20px;
@@ -187,6 +248,41 @@ body {
     font-size: 19px;
     line-height: 27px;
     }
+    .slider-for__item {
+    height: 345px;
+}
+.slider-nav__item {
+    width: 92px;
+    height: 92px;
+}
+.card {
+    padding-bottom: 50px;
+}
+.row_products > div {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.row_products .item-catalog__image {
+    height: 165px;
+}
+.title-middle {
+    font-size: 21px;
+    line-height: 28px;
+    }
+    .section-suggest + .footer {
+    margin-top: 50px;
+}
+.wrap-sorting .btn-sorting {
+    position: relative;
+    margin-bottom: 15px;
+}
+.wrap-sorting {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.card-shop .head-store {
+    margin-bottom: 30px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -224,7 +320,13 @@ body {
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+.row_products > div {
+            -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
 
+}
 }
 @media (min-width: 1600px) {
 	.container {

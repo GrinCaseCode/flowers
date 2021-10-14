@@ -43,8 +43,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		slidesToScroll: 1,
 		asNavFor: '.slider-nav',
 		touchThreshold: 1000,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
 	});
 
 	$('.slider-nav').slick({
@@ -52,13 +52,34 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		dots: false,
 		infinite: true,
 		slidesToShow: 4,
-		slidesToScroll: 5,
+		slidesToScroll: 1,
 		asNavFor: '.slider-for',
 		variableWidth: true,
 		touchThreshold: 1000,
 		focusOnSelect: true,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 4,
+			}
+		}
+		]
+	});
+
+	$('.sorting-list').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 2,
+		variableWidth: true,
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
 		responsive: [
 		{
 			breakpoint: 992,
