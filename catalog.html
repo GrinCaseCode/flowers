@@ -20,8 +20,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.6" />
+	<link rel="stylesheet" href="css/media.css?ver=1.6" />
 </head>
 <body>
 
@@ -30,7 +30,7 @@
 		<header class="header">
 			<div class="container">
 				<div class="header__wrap">
-					<a href="#" class="logo">
+					<a href="#" class="logo"> 
 						<img src="img/logo.svg" alt="alt">
 					</a>
 					<div class="header__right">
@@ -69,790 +69,436 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4">
-						<a href="#" class="btn-main btn-main_filter">Фильтр <i class="far fa-filter"></i></a>
 						<div class="sidebar-filter">
 							<ul class="tabs-sidebar">
-								<li class="active"><a href="#tab_sidebar1">Товары</a></li>
-								<li><a href="#tab_sidebar2">Магазины</a></li>
+								<li class="active"><a href="#">Товары</a></li>
+								<li><a href="#">Магазины</a></li>
 							</ul>
-							<div class="tab-container-sidebar">
-								<div class="tab-pane-sidebar" id="tab_sidebar1">
-									<div class="item-filter">
-										<div class="item-filter__head">Сортировка <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>По популярности</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>Сначала дешевле</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>Сначала дороже</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>От новых к старым</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>От старых к новым</span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
-										</div>
+							<div class="item-filter item-filter__hiddenmob">
+								<div class="item-filter__head">Сортировка <div class="item-filter__arrow"></div></div>
+								<div class="item-filter__content">
+									<div class="radio">
+										<label>
+											<input type="radio" name="radio1" />
+											<span>По популярности</span>
+										</label>
 									</div>
-									<div class="row row_types">
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type1.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Монобукет</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type2.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Коробки</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type3.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Фрукты</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type4.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Авторские</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type5.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Поштучно</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type6.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Воздушные шары</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type7.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Корзины</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type8.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Ящики</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type9.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Мягкие игрушки</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type10.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Съедобные букеты</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type11.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Стабилизированные цветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type12.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Наборы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type13.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Букеты из мыла</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type14.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Сухоцветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type15.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Сложная флористика</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type16.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Овощи</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type17.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Искуственные цветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type18.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Свадебные</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type19.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Другие</span>
-													</span>
-												</label>
-											</div>
-										</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radio1" />
+											<span>Сначала дешевле</span>
+										</label>
 									</div>
-									<div class="item-filter active">
-										<div class="item-filter__head">Цена <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content" style="display: block;">
-											<div class="range-catalog">
-												<div class="range-controls">
-													<div class="input-range">
-														<span>от</span>
-														<input type="text" maxlength="4" value="0" class="control-input control-input__from" />
-													</div>
-													<div class="input-range">
-														<span>до</span>
-														<input type="text" maxlength="4" value="10000" class="control-input control-input__to" />
-													</div>
-												</div>
-												<input type="text" class="range-catalog__input" name="my_range" value="" />
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Закрыть</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
-										</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radio1" />
+											<span>Сначала дороже</span>
+										</label>
 									</div>
-									<div class="item-filter">
-										<div class="item-filter__head">Рейтинг <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 3 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 3.5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 4 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 4.5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
-										</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radio1" />
+											<span>От новых к старым</span>
+										</label>
 									</div>
-									<div class="item-filter">
-										<div class="item-filter__head">Цветы <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span>Розы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span>Тюльпаны</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Пионы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Пионовидные розы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Хризантемы</span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radio1" />
+											<span>От старых к новым</span>
+										</label>
+									</div>
+									<div class="item-filter__buttons">
+										<a href="#" class="btn-main btn-main_page">Сбросить</a>
+										<a href="#" class="btn-main">Применить</a>
+									</div>
+								</div>
+							</div>
+							<div class="row row_types">
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type1.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Монобукет</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type2.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Коробки</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type3.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Фрукты</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type4.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Авторские</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type5.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Поштучно</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type6.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Воздушные шары</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type7.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Корзины</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type8.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Ящики</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type9.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Мягкие игрушки</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type10.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Съедобные букеты</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type11.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Стабилизированные цветы</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type12.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Наборы</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type13.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Букеты из мыла</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type14.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Сухоцветы</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type15.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Сложная флористика</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type16.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Овощи</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type17.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Искуственные цветы</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type18.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Свадебные</span>
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-4 col-6">
+									<div class="item-type">
+										<label>
+											<input type="checkbox" />
+											<span class="item-type__content">
+												<span class="item-type__image">
+													<img src="img/type19.svg" alt="alt">
+												</span>
+												<span class="item-type__name">Другие</span>
+											</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="filters-wrap">
+								<div class="item-filter item-filter_mob">
+									<div class="item-filter__head">Сортировка <div class="item-filter__arrow"></div></div>
+									<div class="item-filter__content">
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio1" />
+												<span>По популярности</span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio1" />
+												<span>Сначала дешевле</span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio1" />
+												<span>Сначала дороже</span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio1" />
+												<span>От новых к старым</span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio1" />
+												<span>От старых к новым</span>
+											</label>
+										</div>
+										<div class="item-filter__buttons">
+											<a href="#" class="btn-main btn-main_page">Сбросить</a>
+											<a href="#" class="btn-main">Применить</a>
 										</div>
 									</div>
 								</div>
-								<div class="tab-pane-sidebar" id="tab_sidebar2">
-									<div class="item-filter">
-										<div class="item-filter__head">Сортировка <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>По популярности</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>Сначала дешевле</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>Сначала дороже</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>От новых к старым</span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio1" />
-													<span>От старых к новым</span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
-										</div>
-									</div>
-									<div class="row row_types">
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type1.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Монобукет</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type2.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Коробки</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type3.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Фрукты</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type4.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Авторские</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type5.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Поштучно</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type6.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Воздушные шары</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type7.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Корзины</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type8.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Ящики</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type9.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Мягкие игрушки</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type10.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Съедобные букеты</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type11.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Стабилизированные цветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type12.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Наборы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type13.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Букеты из мыла</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type14.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Сухоцветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type15.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Сложная флористика</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type16.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Овощи</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type17.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Искуственные цветы</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type18.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Свадебные</span>
-													</span>
-												</label>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-4 col-6">
-											<div class="item-type">
-												<label>
-													<input type="checkbox" />
-													<span class="item-type__content">
-														<span class="item-type__image">
-															<img src="img/type19.svg" alt="alt">
-														</span>
-														<span class="item-type__name">Другие</span>
-													</span>
-												</label>
-											</div>
-										</div>
-									</div>
-									<div class="item-filter active">
-										<div class="item-filter__head">Цена <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content" style="display: block;">
-											<div class="range-catalog">
-												<div class="range-controls">
-													<div class="input-range">
-														<span>от</span>
-														<input type="text" maxlength="4" value="0" class="control-input control-input__from" />
-													</div>
-													<div class="input-range">
-														<span>до</span>
-														<input type="text" maxlength="4" value="10000" class="control-input control-input__to" />
-													</div>
+								<div class="item-filter item-filter_price active">
+									<div class="item-filter__head">Цена <div class="item-filter__arrow"></div></div>
+									<div class="item-filter__content" style="display: block;">
+										<div class="range-catalog">
+											<div class="range-controls">
+												<div class="input-range">
+													<span>от</span>
+													<input type="text" maxlength="4" value="0" class="control-input control-input__from" />
 												</div>
-												<input type="text" class="range-catalog__input" name="my_range" value="" />
+												<div class="input-range">
+													<span>до</span>
+													<input type="text" maxlength="4" value="10000" class="control-input control-input__to" />
+												</div>
 											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Закрыть</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
+											<input type="text" class="range-catalog__input" name="my_range" value="" />
+										</div>
+										<div class="item-filter__buttons">
+											<a href="#" class="btn-main btn-main_page">Закрыть</a>
+											<a href="#" class="btn-main">Применить</a>
 										</div>
 									</div>
-									<div class="item-filter">
-										<div class="item-filter__head">Рейтинг <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 3 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 3.5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 4 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 4.5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="radio2" />
-													<span>от 5 <img src="img/star.svg" alt="alt"></span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
+								</div>
+								<div class="item-filter">
+									<div class="item-filter__head">Рейтинг <div class="item-filter__arrow"></div></div>
+									<div class="item-filter__content">
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio2" />
+												<span>от 3 <img src="img/star.svg" alt="alt"></span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio2" />
+												<span>от 3.5 <img src="img/star.svg" alt="alt"></span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio2" />
+												<span>от 4 <img src="img/star.svg" alt="alt"></span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio2" />
+												<span>от 4.5 <img src="img/star.svg" alt="alt"></span>
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radio2" />
+												<span>от 5 <img src="img/star.svg" alt="alt"></span>
+											</label>
+										</div>
+										<div class="item-filter__buttons">
+											<a href="#" class="btn-main btn-main_page">Сбросить</a>
+											<a href="#" class="btn-main">Применить</a>
 										</div>
 									</div>
-									<div class="item-filter">
-										<div class="item-filter__head">Цветы <div class="item-filter__arrow"></div></div>
-										<div class="item-filter__content">
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span>Розы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" checked="checked" />
-													<span>Тюльпаны</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Пионы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Пионовидные розы</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"/>
-													<span>Хризантемы</span>
-												</label>
-											</div>
-											<div class="item-filter__buttons">
-												<a href="#" class="btn-main btn-main_page">Сбросить</a>
-												<a href="#" class="btn-main">Применить</a>
-											</div>
+								</div>
+								<div class="item-filter">
+									<div class="item-filter__head">Цветы <div class="item-filter__arrow"></div></div>
+									<div class="item-filter__content">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" checked="checked" />
+												<span>Розы</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" checked="checked" />
+												<span>Тюльпаны</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"/>
+												<span>Пионы</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"/>
+												<span>Пионовидные розы</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"/>
+												<span>Хризантемы</span>
+											</label>
+										</div>
+										<div class="item-filter__buttons">
+											<a href="#" class="btn-main btn-main_page">Сбросить</a>
+											<a href="#" class="btn-main">Применить</a>
 										</div>
 									</div>
 								</div>
@@ -870,7 +516,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -884,7 +530,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -898,7 +544,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -912,7 +558,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -926,7 +572,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -940,7 +586,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -954,7 +600,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -968,7 +614,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -982,7 +628,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -996,7 +642,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -1010,7 +656,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -1024,7 +670,7 @@
 										<span class="item-catalog__title">Букет возможено в 2 строки</span>
 										<span class="item-catalog__bottom">
 											<span class="item-catalog__rating"><img src="img/star.svg" alt="alt">5.0</span>
-											<span class="item-catalog__price">66 999₽</span>
+											<span class="item-catalog__price">66 999₽ <span class="btn-main">Купить</span></span>
 										</span>
 									</span>
 								</a>
@@ -1051,15 +697,13 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__wrap">
-					<div class="footer__left">
-						<a href="#" class="logo">
-							<img src="img/logo2.svg" alt="alt">
-						</a>
-						<ul class="footer__nav">
-							<li><a href="#">Условия</a></li>
-							<li><a href="#">Обработка персональных данных</a></li>
-						</ul>
-					</div>
+					<a href="#" class="logo">
+						<img src="img/logo2.svg" alt="alt">
+					</a>
+					<ul class="footer__nav">
+						<li><a href="#">Условия</a></li>
+						<li><a href="#">Обработка персональных данных</a></li>
+					</ul>
 					<div class="footer__right">
 						<select>
 							<option value="1">₽ (Руб.)</option>
@@ -1092,9 +736,10 @@
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.1"></script>
+<script src="js/common.js?ver=1.6"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

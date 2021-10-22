@@ -33,6 +33,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".modal-menu").fadeOut(200);
 		});
 
+	$(".card__prices").waypoint(function(direction) {
+	 	if (direction === "down") {
+	 		$(".mobile-card-buttons").addClass("active");
+	 	} else if (direction === "up") {
+	 		$(".mobile-card-buttons").removeClass("active");
+	 	};
+	 }, {offset: 0}); 
+
 	//слайдер
 
 	$('.slider-for').slick({
@@ -90,6 +98,28 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+
+$('.slider-catalog').slick({
+		arrows: false,
+		dots: false,
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+			variableWidth: true,
+			}
+		}
+		]
+	});
+
 	jQuery('.quantity').each(function() {
 		var spinner = jQuery(this),
 		input = spinner.find('input[type="number"]'),
@@ -127,14 +157,6 @@ $(".btn-main_filter").click(function(e) {
 			$(".sidebar-filter").slideToggle(200);
 		});
 
-	$('.tabs-sidebar li a').click(function(event) {
-		event.preventDefault();
-		$(this).parent().parent().find("li").removeClass('active');
-		$(this).parent().addClass('active');
-		$(".tab-pane-sidebar").fadeOut(0);
-		var selectTab = $(this).attr("href");
-		$(selectTab).fadeIn(200);
-	});
 
 	/*range slider*/
 
