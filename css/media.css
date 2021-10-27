@@ -388,7 +388,7 @@
 .item-catalog__price .btn-main {
     display: none;
 }
-.item-catalog:hover .item-catalog__price .btn-main {
+.item-catalog.active .item-catalog__price .btn-main {
     display: inline-flex;
 }
 }

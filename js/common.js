@@ -1,6 +1,21 @@
 $(document).ready(function() {
 
+$(".item-catalog").click(function(e) {
+	$(".item-catalog").removeClass("active");
+	if ($(this).hasClass("active")) {
+		$(this).removeClass("active");
+	} else {
+$(this).addClass("active");
+	}
+	});
 
+ $(document).mouseup(function (e){ 
+    var div = $(".item-catalog"); 
+    if (!div.is(e.target) 
+      && div.has(e.target).length === 0) { 
+    $(".item-catalog").removeClass("active");
+ }
+});
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){
