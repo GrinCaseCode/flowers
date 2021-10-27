@@ -390,6 +390,20 @@
 }
 .item-catalog.active .item-catalog__price .btn-main {
     display: inline-flex;
+}   
+.card ~ .footer {
+    padding-bottom: 100px;
+}
+.mobile-card-buttons.active::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 1000%;
+    left: -50%;
+    top: 0;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
 }
 }
 
@@ -500,6 +514,12 @@
     .modal-menu {
         top: -19px;
         right: -22px;
+    }
+    .mobile-card-buttons.active {
+        padding: 10px 15px;
+    }
+    .mobile-card-buttons.active::before {
+        display: none;
     }
 }
 
