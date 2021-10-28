@@ -802,6 +802,7 @@ select {
 	font-size: 32px;
 	line-height: 40px;
 	margin-right: 12px;
+	white-space: nowrap;
 	font-weight: 700;
 }
 .card p {

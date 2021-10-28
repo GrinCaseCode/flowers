@@ -256,19 +256,25 @@
     margin-top: 0px;
 }
 .row_card {
+    margin: 0 -10px;
     margin-top: 20px;
 }
+.row_card > div {
+    padding: 0 10px;
+}
 .row_card .btn-main {
-    min-width: initial;
-    margin-top: 20px;
-    margin-bottom: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: initial; 
     width: 340px;
     max-width: 100%;
 }
 .section-suggest + .footer {
     margin-top: 80px;
 }
-
+.row_card .quantity {
+    height: 47px;
+}
 .card-shop .head-store > img {
     max-width: 51px;
 }
@@ -326,9 +332,7 @@
     width: 60px;
     height: 60px;
 }
-.row_card {
-    display: none;
-}
+
 .card + .section-suggest {
     display: none;
 }
@@ -339,6 +343,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    display: none;
 }
 .mobile-card-buttons .btn-main {
     height: 54px;
@@ -356,6 +361,7 @@
 }
 .mobile-card-buttons.active {
     position: fixed;
+    display: flex;
     padding: 10px 0;
     bottom: 0;
     left: 0;
@@ -521,8 +527,19 @@
     .mobile-card-buttons.active::before {
         display: none;
     }
+    .row_top-card {
+        margin: 0 -7px;
+    }
+    .row_top-card > div {
+        padding: 0 7px;
+    }
 }
-
+@media only screen and (max-width : 360px) {
+.price-main {
+    font-size: 27px;
+    line-height: 38px;
+}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
